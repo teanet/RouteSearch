@@ -9,7 +9,7 @@ Example
 `FROM_DISPLAY_NAME`, `TO_DISPLAY_NAME`, optional – display name of route point, if not present use `lon,lat` as description
 `FROM_OBJECT_ID`, `TO_OBJECT_ID`, optional – internal id of desired point, can be found at 2gis.ru  
 
-Olso you can use `my_location` as route point ex.
+Also you can use `my_location` as route point ex.
 `https://2gis.ru/routeSearch/from/my_location/to/82.898712,55.073257`
 
 If there is no from or to point exists, we use `my_location` for missing point ex.
