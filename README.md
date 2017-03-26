@@ -3,10 +3,15 @@ Example
 `SCHEME://2gis.ru/REGION_CODE/routeSearch/rsType/ROUTING_TYPE/from/lon,lat╎FROM_DISPLAY_NAME╎FROM_OBJECT_ID╎geo/to/lon,lat╎TO_DISPLAY_NAME╎TO_OBJECT_ID╎geo`
 
 `SCHEME`, required – `https` or `dgis`
+
 `REGION_CODE`, optional – region internal code of region ex. `novosibirsk`, `omsk`
+
 `ROUTING_TYPE`, optional – routing type ex. `car`, `bus` (default `bus`)
+
 `lon,lat`, required – longitude and latitude of route point ex. `82.898712,55.073257`
+
 `FROM_DISPLAY_NAME`, `TO_DISPLAY_NAME`, optional – display name of route point, if not present use `lon,lat` as description
+
 `FROM_OBJECT_ID`, `TO_OBJECT_ID`, optional – internal id of desired point, can be found at 2gis.ru  
 
 Also you can use `my_location` as route point ex.
